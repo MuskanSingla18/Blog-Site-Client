@@ -103,7 +103,7 @@ export const DetailsPages = () => {
             {!showEditModal ?
             <div className='right'>
               <div className='buttons'>
-              <button className="button" onClick={handleEdit}>
+              <button className="button" onClick={authToken && handleEdit}>
                   <BsPencilSquare />
                 </button>
                 <button className="button" onClick={authToken && handleDelete}>
